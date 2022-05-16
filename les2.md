@@ -25,3 +25,14 @@ else:
 
 Выходные данные:
 Выведите "Sauron", если армия Саурона сильнее. Если если же сильнее армия Сарумана, выведите "Saruman". В случае ничьей выведите "Tie".
+```
+y_sau = int(input('Sau:'))
+x_sar = int(input('Sar:'))*1.5
+
+if y_sau > x_sar:
+    print('Sauron')
+elif x_sar > y_sau:
+    print('Saruman')
+else:
+    print('Tie')
+```
