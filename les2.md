@@ -59,3 +59,24 @@ print(counter)
 print(avg)
 print("The end")
 ```
+```
+# Вводится такая же последовательность.
+# ее максимальное и минимальное значения
+
+
+max_value = 0
+min_value = 0
+
+while True:
+    a = int(input())
+    if a == 0:
+        break
+    if a > max_value:
+        max_value = a
+
+    if a < min_value:
+        min_value = a
+
+print(max_value)
+print(min_value)
+```
