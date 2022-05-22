@@ -80,3 +80,22 @@ while True:
 print(max_value)
 print(min_value)
 ```
+
+22.05.2022
+```
+# for i in range(90,101):
+#     print(i ** 2)
+
+# for i in range(2, 101, 2):
+#     print(i)
+
+# sum all from 1 - 100
+#
+# sum_i = 0
+#
+# for i in range(1, 101):
+#     sum_i = sum_i + i
+#
+# print(sum_i)
+
+```
