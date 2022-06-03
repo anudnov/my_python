@@ -173,10 +173,48 @@ for i in range(1, 4):
 
 print(nums)
 ```
+```
+nums = []
 
+for i in range(1, 4):
+    if i == 3:
+        q = input("Do you w to save third value (yes/no)? ")
+        if q == 'no':
+            break
 
+    n = int(input('Please insert number: '))
+    nums.append(n)
+    print("Номер ввода: ", i)
 
+print(nums)
+```
+```
+lst = [1, 23, 20, 38, 98, 20, 17, 20]
+print(lst)
 
+print('If y see number 20, I will change it to 200')
+
+for i in range(len(lst)):
+    if lst[i] == 20:
+        lst[i] = 200
+
+print(lst)
+```
+```
+str_list = [x for x in str_list if x != '']
+```
+2. Необходимо удалить пустые строки из списка строк.
+```
+string_lst = ['', 'u', 'ere', '', 'hello', 'no']
+print(string_lst)
+
+string_lst = [i for i in string_lst if i]
+
+print(string_lst)a
+```
+```
+
+```
 
 
 
