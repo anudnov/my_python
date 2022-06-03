@@ -77,3 +77,21 @@ while x <= y:
 
 print(x, days)
 ```
+
+    w1 = 1000
+    w2 = 1200
+    w3 = 7800
+    w4 = 12000
+    w5 = 2100
+    w6 = 3500
+    salary_lst = [1000, 1200, 7800, 12000, 2100, 3500]
+
+    for i in salary_lst:
+        print(i, end=' ')
+
+    print(w1, w2, w3, w4, w5, w6)
+
+```
+for i in range(1, 11):
+         print(i)
+```
