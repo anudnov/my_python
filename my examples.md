@@ -18,6 +18,7 @@ while i < 27:
 
 print("After", age)
 ```
+```
 n = 0
 s = 0
 
@@ -49,7 +50,7 @@ while True:
 
 print("The end")
 ```
-```
 
 ```
+
 ```
