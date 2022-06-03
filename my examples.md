@@ -158,7 +158,21 @@ for i in range(n):
 
 print(lst)
 ```
+```
+nums = []
 
+for i in range(1, 4):
+    if i == 3:
+        q = input("Do you w to save third value (yes/no)? ")
+        if q == 'no':
+            break
+
+    n = int(input('Please insert number: '))
+    nums.append(n)
+    print("Номер ввода: ", i)
+
+print(nums)
+```
 
 
 
