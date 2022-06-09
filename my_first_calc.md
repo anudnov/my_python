@@ -1,3 +1,4 @@
+Version 1.
 ```
 def plus(a, b):
     return a + b
@@ -41,6 +42,7 @@ for i in opper.split(' '):
 
 print('--------Calculation was finish------')
 ```
+Version 2
 ```
 def plus(a, b):
     return a + b
