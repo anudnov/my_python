@@ -41,3 +41,38 @@ for i in opper.split(' '):
 
 print('--------Calculation was finish------')
 ```
+```
+def plus(a, b):
+    return a + b
+
+
+def minus(a, b):
+    return a - b
+
+
+def dev(a, b):
+    return a // b
+
+
+def mult(a, b):
+    return a * b
+
+
+opper = input('What calculation do you want to do? +, -, //, *: ')
+print('Hello to my first calculator')
+x = int(input('Now add you first number: '))
+y = int(input('Now add you secondary number: '))
+my_answer = 0
+
+if opper == '+':
+    my_answer = plus(x, y)
+elif opper == '-':
+    my_answer = minus(x, y)
+elif opper == '//':
+    my_answer = dev(x, y)
+elif opper == '*':
+    my_answer = dev(x, y)
+
+print(my_answer)
+print('--------Calculation was finish------')
+```
