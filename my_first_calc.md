@@ -18,7 +18,6 @@ def mult(a, b):
 opper = input('What calculation do you want to do? +, -, //, *: ')
 print('Hello to my first calculator')
 for i in opper.split(' '):
-#    print(i)
     if opper == '+':
         x = int(input('Now add you first number: '))
         y = int(input('Now add you secondary number: '))
@@ -40,5 +39,5 @@ for i in opper.split(' '):
         my_answer3 = dev(x3, y3)
         print('Your answer is: ', my_answer3)
 
-print('--------Calculation was end.------')
+print('--------Calculation was finish------')
 ```
