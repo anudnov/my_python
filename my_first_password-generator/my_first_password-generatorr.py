@@ -1,4 +1,3 @@
-```
 import random
 
 num_count = int(input('How much numbers: '))
@@ -30,8 +29,3 @@ print('Your password is: ', end='')
 for i in pas:
     print(i, end='')
 
-```    
-#### Version 002
-```
-
-```
