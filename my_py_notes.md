@@ -19,3 +19,11 @@ print(motorcycles)
 motorcycles[0] = 'ducati'
 print(motorcycles)
 ```
+Добавление элементов в список
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+motorcycles.append('ducati')
+print(motorcycles)
+```
