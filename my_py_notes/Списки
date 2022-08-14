@@ -34,3 +34,12 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
 ```
+Удаление элементов из списка
+Удаление элемента с использованием команды del
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+del motorcycles[0]
+print(motorcycles)
+```
