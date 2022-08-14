@@ -11,3 +11,11 @@ print(bicycles[2])
 print(bicycles[-1])
 ```
 
+Изменение элементов в списке
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+motorcycles[0] = 'ducati'
+print(motorcycles)
+```
