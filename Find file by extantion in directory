@@ -1,0 +1,12 @@
+import os
+from termcolor import colored
+
+print(colored('Welcome to my search program, please insert you path to find files ', 'blue', attrs=['bold']))
+my_location = input('Please wright here: ')
+print(colored('Now, please insert file extension that you want to find. For example', 'blue', attrs=['bold']), '.pdf')
+my_file_extension = input('Please wright here: ')
+
+for root, dirs, files in os.walk(my_location):
+    for file in files:
+        if file.endswith(my_file_extension):
+            print(os.path.join(root, file))
